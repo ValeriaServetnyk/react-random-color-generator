@@ -38,11 +38,12 @@ const RandomColor = () => {
           color: color,
           padding: '40px',
           borderRadius: '10px',
-          fontSize: 'larger',
+          fontSize: 'large',
+          fontWeight: 'bold',
         }}
         onClick={handleGenerate}
       >
-        <h1>Generate</h1>
+        Generate
       </button>
       <h2>Generated Color {color}</h2>
     </div>
