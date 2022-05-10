@@ -28,6 +28,7 @@ const RandomColor = () => {
         display: 'grid',
         justifyContent: 'center',
         alignItems: 'center',
+        transition: 'all 0.5s ease-in-out',
       }}
 
       // className="container"
