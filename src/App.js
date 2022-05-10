@@ -5,7 +5,7 @@ import { useState } from 'react';
 // define variable for the color
 
 const RandomColor = () => {
-  const [color, setColor] = useState('#FFFFFF');
+  const [color, setColor] = useState('');
 
   // add state change when the button is clicked. The actual assignment of the random color
 
@@ -47,6 +47,7 @@ const RandomColor = () => {
       </button>
       <div
         style={{
+          backgroundColor: color,
           fontSize: 'large',
           fontWeight: 'bold',
         }}
