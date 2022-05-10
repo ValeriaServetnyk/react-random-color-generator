@@ -51,7 +51,7 @@ const RandomColor = () => {
           fontWeight: 'bold',
         }}
       >
-        Generated Color {color}
+        Generated Color: {color}
       </div>
     </div>
   );
