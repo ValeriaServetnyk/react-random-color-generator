@@ -45,7 +45,14 @@ const RandomColor = () => {
       >
         Generate
       </button>
-      <h2>Generated Color {color}</h2>
+      <div
+        style={{
+          fontSize: 'large',
+          fontWeight: 'bold',
+        }}
+      >
+        Generated Color {color}
+      </div>
     </div>
   );
 };
